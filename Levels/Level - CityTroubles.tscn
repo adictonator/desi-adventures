@@ -1,0 +1,863 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://assets/Modern_Exteriors_Complete_Tileset_48x48.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/HUD.tscn" type="PackedScene" id=3]
+[ext_resource path="res://assets/background/1.jpg" type="Texture" id=4]
+[ext_resource path="res://assets/background/2.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Rupee.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Scenes/Ruby.tscn" type="PackedScene" id=7]
+
+[sub_resource type="TileSet" id=9]
+0/name = "Modern_Exteriors_Complete_Tileset_48x48.png 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 288, 1728, 288, 480 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "Modern_Exteriors_Complete_Tileset_48x48.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 3168, 2640, 288, 384 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "Modern_Exteriors_Complete_Tileset_48x48.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 2784, 3120, 240, 384 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+4/name = "Modern_Exteriors_Complete_Tileset_48x48.png 4"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 1200, 720, 48, 48 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "Modern_Exteriors_Complete_Tileset_48x48.png 5"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 1248, 720, 48, 48 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape_one_way = false
+5/shape_one_way_margin = 0.0
+5/shapes = [  ]
+5/z_index = 0
+6/name = "Modern_Exteriors_Complete_Tileset_48x48.png 6"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 1152, 720, 48, 48 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
+6/shapes = [  ]
+6/z_index = 0
+7/name = "Modern_Exteriors_Complete_Tileset_48x48.png 7"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 240, 240, 48, 48 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape_one_way = false
+7/shape_one_way_margin = 0.0
+7/shapes = [  ]
+7/z_index = 0
+8/name = "Modern_Exteriors_Complete_Tileset_48x48.png 8"
+8/texture = ExtResource( 1 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 288, 288, 48, 48 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
+8/shapes = [  ]
+8/z_index = 0
+9/name = "Modern_Exteriors_Complete_Tileset_48x48.png 9"
+9/texture = ExtResource( 1 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 240, 384, 48, 48 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
+9/shapes = [  ]
+9/z_index = 0
+10/name = "Modern_Exteriors_Complete_Tileset_48x48.png 10"
+10/texture = ExtResource( 1 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 4512, 624, 48, 48 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape_one_way = false
+10/shape_one_way_margin = 0.0
+10/shapes = [  ]
+10/z_index = 0
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 96, 192, 0, 192, 0, 48, 96, 48 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+points = PoolVector2Array( 0, 48, 96, 48, 96, 144, 0, 144 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 0, 0, 48, 0, 48, 48, 0, 48 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 0, 0, 96, 0, 96, 96, 0, 96 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 47.8704, 19.1944, 48, 48, 0, 48, 0, 19.1944 )
+
+[sub_resource type="TileSet" id=1]
+1/name = "Modern_Exteriors_Complete_Tileset_48x48.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 240, 480, 48, 48 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "Modern_Exteriors_Complete_Tileset_48x48.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 288, 336, 48, 48 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "Modern_Exteriors_Complete_Tileset_48x48.png 3"
+3/texture = ExtResource( 1 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 1728, 720, 48, 48 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape = SubResource( 2 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+3/z_index = 0
+4/name = "Modern_Exteriors_Complete_Tileset_48x48.png 4"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 1632, 240, 48, 48 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "Modern_Exteriors_Complete_Tileset_48x48.png 5"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 384, 48, 48 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape = SubResource( 8 )
+5/shape_one_way = false
+5/shape_one_way_margin = 1.0
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+5/z_index = 0
+6/name = "Modern_Exteriors_Complete_Tileset_48x48.png 6"
+6/texture = ExtResource( 1 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 240, 384, 48, 48 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
+6/shapes = [  ]
+6/z_index = 0
+7/name = "Modern_Exteriors_Complete_Tileset_48x48.png 7"
+7/texture = ExtResource( 1 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 288, 384, 48, 48 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape_one_way = false
+7/shape_one_way_margin = 0.0
+7/shapes = [  ]
+7/z_index = 0
+8/name = "Modern_Exteriors_Complete_Tileset_48x48.png 8"
+8/texture = ExtResource( 1 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 240, 432, 48, 48 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
+8/shapes = [  ]
+8/z_index = 0
+9/name = "Modern_Exteriors_Complete_Tileset_48x48.png 9"
+9/texture = ExtResource( 1 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 336, 48, 48 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
+9/shapes = [  ]
+9/z_index = 0
+10/name = "Modern_Exteriors_Complete_Tileset_48x48.png 10"
+10/texture = ExtResource( 1 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 288, 1728, 288, 480 )
+10/tile_mode = 0
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shape_offset = Vector2( 0, 0 )
+10/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+10/shape_one_way = false
+10/shape_one_way_margin = 0.0
+10/shapes = [  ]
+10/z_index = 1
+11/name = "Modern_Exteriors_Complete_Tileset_48x48.png 11"
+11/texture = ExtResource( 1 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 960, 1296, 96, 192 )
+11/tile_mode = 0
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shape_offset = Vector2( 0, 0 )
+11/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+11/shape = SubResource( 7 )
+11/shape_one_way = true
+11/shape_one_way_margin = 1.0
+11/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+11/z_index = 0
+12/name = "Modern_Exteriors_Complete_Tileset_48x48.png 12"
+12/texture = ExtResource( 1 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 288, 48, 48 )
+12/tile_mode = 0
+12/occluder_offset = Vector2( 0, 0 )
+12/navigation_offset = Vector2( 0, 0 )
+12/shape_offset = Vector2( 0, 0 )
+12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape_one_way = false
+12/shape_one_way_margin = 0.0
+12/shapes = [  ]
+12/z_index = 0
+13/name = "Modern_Exteriors_Complete_Tileset_48x48.png 13"
+13/texture = ExtResource( 1 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 1200, 720, 48, 48 )
+13/tile_mode = 0
+13/occluder_offset = Vector2( 0, 0 )
+13/navigation_offset = Vector2( 0, 0 )
+13/shape_offset = Vector2( 0, 0 )
+13/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+13/shape_one_way = false
+13/shape_one_way_margin = 0.0
+13/shapes = [  ]
+13/z_index = 0
+14/name = "Modern_Exteriors_Complete_Tileset_48x48.png 14"
+14/texture = ExtResource( 1 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 1248, 720, 48, 48 )
+14/tile_mode = 0
+14/occluder_offset = Vector2( 0, 0 )
+14/navigation_offset = Vector2( 0, 0 )
+14/shape_offset = Vector2( 0, 0 )
+14/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+14/shape_one_way = false
+14/shape_one_way_margin = 0.0
+14/shapes = [  ]
+14/z_index = 0
+15/name = "Modern_Exteriors_Complete_Tileset_48x48.png 15"
+15/texture = ExtResource( 1 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 1200, 576, 48, 48 )
+15/tile_mode = 0
+15/occluder_offset = Vector2( 0, 0 )
+15/navigation_offset = Vector2( 0, 0 )
+15/shape_offset = Vector2( 0, 0 )
+15/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+15/shape_one_way = false
+15/shape_one_way_margin = 0.0
+15/shapes = [  ]
+15/z_index = 0
+16/name = "Modern_Exteriors_Complete_Tileset_48x48.png 16"
+16/texture = ExtResource( 1 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 1824, 528, 48, 48 )
+16/tile_mode = 0
+16/occluder_offset = Vector2( 0, 0 )
+16/navigation_offset = Vector2( 0, 0 )
+16/shape_offset = Vector2( 0, 0 )
+16/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+16/shape_one_way = false
+16/shape_one_way_margin = 0.0
+16/shapes = [  ]
+16/z_index = 0
+17/name = "Modern_Exteriors_Complete_Tileset_48x48.png 17"
+17/texture = ExtResource( 1 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 2208, 288, 528 )
+17/tile_mode = 0
+17/occluder_offset = Vector2( 0, 0 )
+17/navigation_offset = Vector2( 0, 0 )
+17/shape_offset = Vector2( 0, 0 )
+17/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+17/shape_one_way = false
+17/shape_one_way_margin = 0.0
+17/shapes = [  ]
+17/z_index = 0
+18/name = "Modern_Exteriors_Complete_Tileset_48x48.png 18"
+18/texture = ExtResource( 1 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 0, 2832, 288, 528 )
+18/tile_mode = 0
+18/occluder_offset = Vector2( 0, 0 )
+18/navigation_offset = Vector2( 0, 0 )
+18/shape_offset = Vector2( 0, 0 )
+18/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+18/shape_one_way = false
+18/shape_one_way_margin = 0.0
+18/shapes = [  ]
+18/z_index = 0
+19/name = "Modern_Exteriors_Complete_Tileset_48x48.png 19"
+19/texture = ExtResource( 1 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 1440, 1488, 96, 96 )
+19/tile_mode = 0
+19/occluder_offset = Vector2( 0, 0 )
+19/navigation_offset = Vector2( 0, 0 )
+19/shape_offset = Vector2( 0, 0 )
+19/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+19/shape_one_way = false
+19/shape_one_way_margin = 0.0
+19/shapes = [  ]
+19/z_index = 0
+20/name = "Modern_Exteriors_Complete_Tileset_48x48.png 20"
+20/texture = ExtResource( 1 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 288, 2832, 96, 96 )
+20/tile_mode = 0
+20/occluder_offset = Vector2( 0, 0 )
+20/navigation_offset = Vector2( 0, 0 )
+20/shape_offset = Vector2( 0, 0 )
+20/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+20/shape_one_way = false
+20/shape_one_way_margin = 0.0
+20/shapes = [  ]
+20/z_index = 0
+21/name = "Modern_Exteriors_Complete_Tileset_48x48.png 21"
+21/texture = ExtResource( 1 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 384, 2832, 96, 96 )
+21/tile_mode = 0
+21/occluder_offset = Vector2( 0, 0 )
+21/navigation_offset = Vector2( 0, 0 )
+21/shape_offset = Vector2( 0, 0 )
+21/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+21/shape_one_way = false
+21/shape_one_way_margin = 0.0
+21/shapes = [  ]
+21/z_index = 0
+22/name = "Modern_Exteriors_Complete_Tileset_48x48.png 22"
+22/texture = ExtResource( 1 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 480, 3024, 96, 96 )
+22/tile_mode = 0
+22/occluder_offset = Vector2( 0, 0 )
+22/navigation_offset = Vector2( 0, 0 )
+22/shape_offset = Vector2( 0, 0 )
+22/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+22/shape_one_way = false
+22/shape_one_way_margin = 0.0
+22/shapes = [  ]
+22/z_index = 0
+23/name = "Modern_Exteriors_Complete_Tileset_48x48.png 23"
+23/texture = ExtResource( 1 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 672, 3120, 144, 144 )
+23/tile_mode = 0
+23/occluder_offset = Vector2( 0, 0 )
+23/navigation_offset = Vector2( 0, 0 )
+23/shape_offset = Vector2( 0, 0 )
+23/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+23/shape_one_way = false
+23/shape_one_way_margin = 0.0
+23/shapes = [  ]
+23/z_index = 0
+24/name = "Modern_Exteriors_Complete_Tileset_48x48.png 24"
+24/texture = ExtResource( 1 )
+24/tex_offset = Vector2( 0, 0 )
+24/modulate = Color( 1, 1, 1, 1 )
+24/region = Rect2( 288, 3216, 96, 144 )
+24/tile_mode = 0
+24/occluder_offset = Vector2( 0, 0 )
+24/navigation_offset = Vector2( 0, 0 )
+24/shape_offset = Vector2( 0, 0 )
+24/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+24/shape = SubResource( 10 )
+24/shape_one_way = true
+24/shape_one_way_margin = 1.0
+24/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+24/z_index = 0
+25/name = "Modern_Exteriors_Complete_Tileset_48x48.png 25"
+25/texture = ExtResource( 1 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 2208, 1056, 144, 576 )
+25/tile_mode = 0
+25/occluder_offset = Vector2( 0, 0 )
+25/navigation_offset = Vector2( 0, 0 )
+25/shape_offset = Vector2( 0, 0 )
+25/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+25/shape_one_way = false
+25/shape_one_way_margin = 0.0
+25/shapes = [  ]
+25/z_index = 0
+26/name = "Modern_Exteriors_Complete_Tileset_48x48.png 26"
+26/texture = ExtResource( 1 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 2400, 1056, 96, 576 )
+26/tile_mode = 0
+26/occluder_offset = Vector2( 0, 0 )
+26/navigation_offset = Vector2( 0, 0 )
+26/shape_offset = Vector2( 0, 0 )
+26/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+26/shape_one_way = false
+26/shape_one_way_margin = 0.0
+26/shapes = [  ]
+26/z_index = 0
+27/name = "Modern_Exteriors_Complete_Tileset_48x48.png 27"
+27/texture = ExtResource( 1 )
+27/tex_offset = Vector2( 0, 0 )
+27/modulate = Color( 1, 1, 1, 1 )
+27/region = Rect2( 2544, 1056, 48, 576 )
+27/tile_mode = 0
+27/occluder_offset = Vector2( 0, 0 )
+27/navigation_offset = Vector2( 0, 0 )
+27/shape_offset = Vector2( 0, 0 )
+27/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+27/shape_one_way = false
+27/shape_one_way_margin = 0.0
+27/shapes = [  ]
+27/z_index = 0
+28/name = "Modern_Exteriors_Complete_Tileset_48x48.png 28"
+28/texture = ExtResource( 1 )
+28/tex_offset = Vector2( 0, 0 )
+28/modulate = Color( 1, 1, 1, 1 )
+28/region = Rect2( 3648, 1056, 864, 576 )
+28/tile_mode = 0
+28/occluder_offset = Vector2( 0, 0 )
+28/navigation_offset = Vector2( 0, 0 )
+28/shape_offset = Vector2( 0, 0 )
+28/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+28/shape_one_way = false
+28/shape_one_way_margin = 0.0
+28/shapes = [  ]
+28/z_index = 0
+29/name = "Modern_Exteriors_Complete_Tileset_48x48.png 29"
+29/texture = ExtResource( 1 )
+29/tex_offset = Vector2( 0, 0 )
+29/modulate = Color( 1, 1, 1, 1 )
+29/region = Rect2( 1248, 3408, 336, 192 )
+29/tile_mode = 0
+29/occluder_offset = Vector2( 0, 0 )
+29/navigation_offset = Vector2( 0, 0 )
+29/shape_offset = Vector2( 0, 0 )
+29/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+29/shape_one_way = false
+29/shape_one_way_margin = 0.0
+29/shapes = [  ]
+29/z_index = 0
+30/name = "Modern_Exteriors_Complete_Tileset_48x48.png 30"
+30/texture = ExtResource( 1 )
+30/tex_offset = Vector2( 0, 0 )
+30/modulate = Color( 1, 1, 1, 1 )
+30/region = Rect2( 1584, 3792, 144, 336 )
+30/tile_mode = 0
+30/occluder_offset = Vector2( 0, 0 )
+30/navigation_offset = Vector2( 0, 0 )
+30/shape_offset = Vector2( 0, 0 )
+30/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+30/shape_one_way = false
+30/shape_one_way_margin = 0.0
+30/shapes = [  ]
+30/z_index = 0
+31/name = "Modern_Exteriors_Complete_Tileset_48x48.png 31"
+31/texture = ExtResource( 1 )
+31/tex_offset = Vector2( 0, 0 )
+31/modulate = Color( 1, 1, 1, 1 )
+31/region = Rect2( 0, 3696, 192, 144 )
+31/tile_mode = 0
+31/occluder_offset = Vector2( 0, 0 )
+31/navigation_offset = Vector2( 0, 0 )
+31/shape_offset = Vector2( 0, 0 )
+31/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+31/shape_one_way = false
+31/shape_one_way_margin = 0.0
+31/shapes = [  ]
+31/z_index = 0
+32/name = "Modern_Exteriors_Complete_Tileset_48x48.png 32"
+32/texture = ExtResource( 1 )
+32/tex_offset = Vector2( 0, 0 )
+32/modulate = Color( 1, 1, 1, 1 )
+32/region = Rect2( 4080, 2208, 384, 624 )
+32/tile_mode = 0
+32/occluder_offset = Vector2( 0, 0 )
+32/navigation_offset = Vector2( 0, 0 )
+32/shape_offset = Vector2( 0, 0 )
+32/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+32/shape_one_way = false
+32/shape_one_way_margin = 0.0
+32/shapes = [  ]
+32/z_index = 0
+33/name = "Modern_Exteriors_Complete_Tileset_48x48.png 33"
+33/texture = ExtResource( 1 )
+33/tex_offset = Vector2( 0, 0 )
+33/modulate = Color( 1, 1, 1, 1 )
+33/region = Rect2( 2784, 2160, 336, 864 )
+33/tile_mode = 0
+33/occluder_offset = Vector2( 0, 0 )
+33/navigation_offset = Vector2( 0, 0 )
+33/shape_offset = Vector2( 0, 0 )
+33/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+33/shape_one_way = false
+33/shape_one_way_margin = 0.0
+33/shapes = [  ]
+33/z_index = 0
+34/name = "Modern_Exteriors_Complete_Tileset_48x48.png 34"
+34/texture = ExtResource( 1 )
+34/tex_offset = Vector2( 0, 0 )
+34/modulate = Color( 1, 1, 1, 1 )
+34/region = Rect2( 4608, 384, 48, 96 )
+34/tile_mode = 0
+34/occluder_offset = Vector2( 0, 0 )
+34/navigation_offset = Vector2( 0, 0 )
+34/shape_offset = Vector2( 0, 0 )
+34/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+34/shape_one_way = false
+34/shape_one_way_margin = 0.0
+34/shapes = [  ]
+34/z_index = 0
+35/name = "Modern_Exteriors_Complete_Tileset_48x48.png 35"
+35/texture = ExtResource( 1 )
+35/tex_offset = Vector2( 0, 0 )
+35/modulate = Color( 1, 1, 1, 1 )
+35/region = Rect2( 4608, 480, 48, 96 )
+35/tile_mode = 0
+35/occluder_offset = Vector2( 0, 0 )
+35/navigation_offset = Vector2( 0, 0 )
+35/shape_offset = Vector2( 0, 0 )
+35/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+35/shape_one_way = false
+35/shape_one_way_margin = 0.0
+35/shapes = [  ]
+35/z_index = 0
+36/name = "Modern_Exteriors_Complete_Tileset_48x48.png 36"
+36/texture = ExtResource( 1 )
+36/tex_offset = Vector2( 0, 0 )
+36/modulate = Color( 1, 1, 1, 1 )
+36/region = Rect2( 768, 960, 96, 96 )
+36/tile_mode = 0
+36/occluder_offset = Vector2( 0, 0 )
+36/navigation_offset = Vector2( 0, 0 )
+36/shape_offset = Vector2( 0, 0 )
+36/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+36/shape = SubResource( 11 )
+36/shape_one_way = false
+36/shape_one_way_margin = 1.0
+36/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+36/z_index = 0
+37/name = "Modern_Exteriors_Complete_Tileset_48x48.png 37"
+37/texture = ExtResource( 1 )
+37/tex_offset = Vector2( 0, 0 )
+37/modulate = Color( 1, 1, 1, 1 )
+37/region = Rect2( 1296, 672, 48, 144 )
+37/tile_mode = 0
+37/occluder_offset = Vector2( 0, 0 )
+37/navigation_offset = Vector2( 0, 0 )
+37/shape_offset = Vector2( 0, 0 )
+37/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+37/shape_one_way = false
+37/shape_one_way_margin = 0.0
+37/shapes = [  ]
+37/z_index = 0
+38/name = "Modern_Exteriors_Complete_Tileset_48x48.png 38"
+38/texture = ExtResource( 1 )
+38/tex_offset = Vector2( 0, 0 )
+38/modulate = Color( 1, 1, 1, 1 )
+38/region = Rect2( 1488, 672, 48, 144 )
+38/tile_mode = 0
+38/occluder_offset = Vector2( 0, 0 )
+38/navigation_offset = Vector2( 0, 0 )
+38/shape_offset = Vector2( 0, 0 )
+38/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+38/shape_one_way = false
+38/shape_one_way_margin = 0.0
+38/shapes = [  ]
+38/z_index = 0
+39/name = "Modern_Exteriors_Complete_Tileset_48x48.png 39"
+39/texture = ExtResource( 1 )
+39/tex_offset = Vector2( 0, 0 )
+39/modulate = Color( 1, 1, 1, 1 )
+39/region = Rect2( 4416, 624, 48, 48 )
+39/tile_mode = 0
+39/occluder_offset = Vector2( 0, 0 )
+39/navigation_offset = Vector2( 0, 0 )
+39/shape_offset = Vector2( 0, 0 )
+39/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+39/shape_one_way = false
+39/shape_one_way_margin = 0.0
+39/shapes = [  ]
+39/z_index = 0
+40/name = "Modern_Exteriors_Complete_Tileset_48x48.png 40"
+40/texture = ExtResource( 1 )
+40/tex_offset = Vector2( 0, 0 )
+40/modulate = Color( 1, 1, 1, 1 )
+40/region = Rect2( 4464, 624, 48, 48 )
+40/tile_mode = 0
+40/occluder_offset = Vector2( 0, 0 )
+40/navigation_offset = Vector2( 0, 0 )
+40/shape_offset = Vector2( 0, 0 )
+40/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+40/shape_one_way = false
+40/shape_one_way_margin = 0.0
+40/shapes = [  ]
+40/z_index = 0
+41/name = "Modern_Exteriors_Complete_Tileset_48x48.png 41"
+41/texture = ExtResource( 1 )
+41/tex_offset = Vector2( 0, 0 )
+41/modulate = Color( 1, 1, 1, 1 )
+41/region = Rect2( 4608, 624, 48, 48 )
+41/tile_mode = 0
+41/occluder_offset = Vector2( 0, 0 )
+41/navigation_offset = Vector2( 0, 0 )
+41/shape_offset = Vector2( 0, 0 )
+41/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+41/shape_one_way = false
+41/shape_one_way_margin = 0.0
+41/shapes = [  ]
+41/z_index = 0
+
+[node name="Level - CityTroubles" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+motion_mirroring = Vector2( 1240, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+texture = ExtResource( 5 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+texture = ExtResource( 4 )
+
+[node name="BackgroundLayer" type="TileMap" parent="."]
+modulate = Color( 0.513726, 0.513726, 0.513726, 1 )
+tile_set = SubResource( 9 )
+cell_size = Vector2( 48, 48 )
+cell_quadrant_size = 48
+format = 1
+tile_data = PoolIntArray( -1179627, 7, 0, -1179626, 7, 0, -1179625, 7, 0, -1179611, 7, 0, -1179610, 7, 0, -1179609, 7, 0, -1179608, 7, 0, -1179607, 7, 0, -1179606, 7, 0, -1179605, 7, 0, -1179604, 7, 0, -1179603, 7, 0, -1179602, 7, 0, -1179601, 7, 0, -1179600, 7, 0, -1179599, 7, 0, -1179598, 7, 0, -1179597, 7, 0, -1179596, 7, 0, -1179595, 7, 0, -1179594, 7, 0, -1179593, 7, 0, -1114091, 7, 0, -1114090, 7, 0, -1114089, 7, 0, -1114088, 7, 0, -1114087, 7, 0, -1114086, 7, 0, -1114085, 7, 0, -1114084, 7, 0, -1114083, 7, 0, -1114082, 7, 0, -1114081, 7, 0, -1114080, 7, 0, -1114079, 7, 0, -1114078, 7, 0, -1114077, 7, 0, -1114076, 7, 0, -1114075, 7, 0, -1114074, 7, 0, -1114073, 7, 0, -1114072, 7, 0, -1114071, 7, 0, -1114070, 7, 0, -1114069, 7, 0, -1114068, 7, 0, -1114067, 7, 0, -1114066, 7, 0, -1114065, 7, 0, -1114061, 7, 0, -1114060, 7, 0, -1114059, 7, 0, -1114058, 7, 0, -1114057, 7, 0, -1048555, 7, 0, -1048554, 7, 0, -1048553, 7, 0, -1048552, 7, 0, -1048551, 7, 0, -1048550, 7, 0, -1048549, 7, 0, -1048548, 7, 0, -1048547, 7, 0, -1048546, 7, 0, -1048545, 7, 0, -1048544, 7, 0, -1048543, 7, 0, -1048542, 7, 0, -1048541, 7, 0, -1048540, 7, 0, -1048539, 7, 0, -1048538, 7, 0, -1048537, 7, 0, -1048536, 7, 0, -1048535, 7, 0, -1048534, 7, 0, -1048533, 7, 0, -1048532, 7, 0, -1048531, 7, 0, -1048530, 7, 0, -1048529, 7, 0, -1048528, 7, 0, -1048527, 7, 0, -1048526, 7, 0, -1048525, 7, 0, -1048524, 7, 0, -1048523, 7, 0, -1048522, 7, 0, -1048521, 7, 0, -983019, 7, 0, -983018, 7, 0, -983017, 7, 0, -983016, 7, 0, -983015, 7, 0, -983014, 7, 0, -983013, 7, 0, -983012, 7, 0, -983011, 7, 0, -983010, 7, 0, -983009, 7, 0, -983008, 7, 0, -983007, 7, 0, -983006, 7, 0, -983005, 7, 0, -983004, 7, 0, -983003, 7, 0, -983002, 7, 0, -983001, 7, 0, -983000, 7, 0, -982999, 7, 0, -982998, 7, 0, -982997, 7, 0, -982996, 7, 0, -982995, 7, 0, -982994, 7, 0, -982993, 7, 0, -982992, 7, 0, -982991, 7, 0, -982990, 7, 0, -982989, 7, 0, -982988, 7, 0, -982987, 7, 0, -982986, 7, 0, -982985, 7, 0, -917484, 7, 0, -917483, 7, 0, -917482, 7, 0, -917481, 7, 0, -917480, 7, 0, -917479, 7, 0, -917478, 7, 0, -917477, 7, 0, -917476, 7, 0, -917475, 7, 0, -917474, 7, 0, -917473, 7, 0, -917472, 7, 0, -917471, 7, 0, -917470, 7, 0, -917469, 7, 0, -917468, 7, 0, -917467, 7, 0, -917466, 7, 0, -917465, 7, 0, -917464, 7, 0, -917463, 7, 0, -917462, 7, 0, -917461, 7, 0, -917460, 7, 0, -917459, 7, 0, -917458, 7, 0, -917457, 7, 0, -917456, 7, 0, -917455, 7, 0, -917454, 7, 0, -917453, 7, 0, -917452, 7, 0, -917451, 7, 0, -917450, 7, 0, -917449, 7, 0, -851946, 7, 0, -851945, 7, 0, -851944, 7, 0, -851943, 7, 0, -851942, 7, 0, -851941, 7, 0, -851940, 7, 0, -851939, 7, 0, -851938, 7, 0, -851937, 7, 0, -851936, 7, 0, -851935, 7, 0, -851934, 7, 0, -851933, 7, 0, -851932, 7, 0, -851931, 7, 0, -851930, 7, 0, -851929, 7, 0, -851928, 7, 0, -851927, 7, 0, -851926, 7, 0, -851925, 7, 0, -851924, 7, 0, -851923, 7, 0, -851922, 7, 0, -851921, 7, 0, -851920, 7, 0, -851919, 7, 0, -851918, 7, 0, -851917, 7, 0, -851916, 7, 0, -851915, 7, 0, -851914, 7, 0, -851913, 7, 0, -851912, 7, 0, -131072, 0, 0, -131052, 0, 0, -131045, 2, 0, 6, 1, 0, 12, 2, 0, 196634, 7, 0, 196640, 7, 0, 196641, 7, 0, 196642, 7, 0, 196643, 7, 0, 196644, 7, 0, 196645, 7, 0, 196646, 7, 0, 196647, 7, 0, 262170, 7, 0, 262176, 7, 0, 262177, 7, 0, 262178, 7, 0, 262179, 7, 0, 262180, 7, 0, 262181, 7, 0, 262182, 7, 0, 262183, 7, 0, 262185, 10, 0, 262186, 10, 0, 327706, 7, 0, 327712, 7, 0, 327713, 7, 0, 327714, 7, 0, 327715, 7, 0, 327716, 7, 0, 327717, 7, 0, 327718, 7, 0, 393242, 7, 0, 393243, 7, 0, 393244, 7, 0, 393245, 7, 0, 393246, 7, 0, 393247, 7, 0, 393248, 7, 0, 393249, 7, 0, 393250, 7, 0, 393251, 7, 0, 393252, 7, 0, 393253, 7, 0, 393254, 7, 0, 393255, 9, 0, 393256, 9, 0, 458778, 7, 0, 458779, 7, 0, 458780, 7, 0, 458781, 7, 0, 458782, 7, 0, 458783, 7, 0, 458784, 7, 0, 458785, 7, 0, 458786, 7, 0, 458787, 7, 0, 458788, 7, 0, 458789, 7, 0, 458790, 7, 0, 458791, 9, 0, 458792, 9, 0, 524288, 6, 0, 524289, 4, 0, 524290, 4, 0, 524291, 4, 0, 524292, 4, 0, 524293, 4, 0, 524294, 4, 0, 524295, 4, 0, 524296, 4, 0, 524297, 4, 0, 524298, 4, 0, 524299, 4, 0, 524300, 4, 0, 524301, 4, 0, 524302, 4, 0, 524303, 4, 0, 524304, 4, 0, 524305, 4, 0, 524306, 4, 0, 524307, 4, 0, 524308, 4, 0, 524309, 4, 0, 524310, 4, 0, 524311, 4, 0, 524312, 4, 0, 524313, 4, 0, 524314, 4, 0, 524315, 4, 0, 524316, 4, 0, 524317, 4, 0, 524318, 4, 0, 524319, 4, 0, 524320, 4, 0, 524321, 4, 0, 524322, 4, 0, 524323, 4, 0, 524324, 4, 0, 524325, 4, 0, 524326, 4, 0, 524327, 4, 0, 524328, 4, 0, 524329, 5, 0 )
+
+[node name="Platforms" type="TileMap" parent="."]
+tile_set = SubResource( 1 )
+cell_size = Vector2( 48, 48 )
+cell_quadrant_size = 48
+show_collision = true
+format = 1
+tile_data = PoolIntArray( -2031530, 32, 0, -1834985, 28, 0, -1834956, 25, 0, -1834953, 26, 0, -1834952, 26, 0, -1834951, 26, 0, -1834950, 26, 0, -1834949, 26, 0, -1834948, 26, 0, -1834947, 26, 0, -1834946, 26, 0, -1834945, 26, 0, -1834944, 26, 0, -1834943, 26, 0, -1834942, 26, 0, -1834941, 26, 0, -1834939, 27, 0, -1572787, 18, 0, -1507257, 30, 0, -1310676, 29, 0, -917464, 11, 0, -917462, 11, 0, -786384, 33, 0, -720855, 33, 0, 131120, 38, 0, 196649, 39, 0, 196651, 40, 0, 196652, 40, 0, 196653, 40, 0, 196654, 40, 0, 196655, 41, 0, 393249, 24, 0, 393250, 22, 0, 393251, 24, 0, 458785, 23, 0 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Road" type="TileMap" parent="."]
+visible = false
+tile_set = SubResource( 1 )
+cell_size = Vector2( 48, 48 )
+cell_quadrant_size = 48
+format = 1
+tile_data = PoolIntArray( -1769440, 5, 0, -1769439, 5, 0, -1769438, 5, 0, -1769437, 5, 0, -1769436, 5, 0, -1769435, 5, 0, -1769434, 5, 0, -1769433, 5, 0, -1769432, 5, 0, -1769420, 5, 0, -1769419, 5, 0, -1769418, 5, 0, -1769417, 5, 0, -1769416, 5, 0, -1769415, 5, 0, -1769414, 5, 0, -1769413, 5, 0, -1769412, 5, 0, -1769411, 5, 0, -1769410, 5, 0, -1769409, 5, 0, -1769408, 5, 0, -1769407, 5, 0, -1769406, 5, 0, -1769405, 5, 0, -1769404, 5, 0, -1769403, 5, 0, -1638359, 5, 0, -1638358, 5, 0, -1638357, 5, 0, -1638356, 5, 0, -1638355, 5, 0, -1638354, 5, 0, -1572776, 5, 0, -1507301, 5, 0, -1507300, 5, 0, -1507299, 5, 0, -1507298, 5, 0, -1507297, 5, 0, -1507257, 5, 0, -1507256, 5, 0, -1507251, 5, 0, -1507250, 5, 0, -1507249, 5, 0, -1507248, 5, 0, -1507247, 5, 0, -1507246, 5, 0, -1507242, 5, 0, -1507241, 5, 0, -1507239, 5, 0, -1507238, 5, 0, -1507237, 5, 0, -1507236, 5, 0, -1507235, 5, 0, -1310676, 5, 0, -1310675, 5, 0, -1310674, 5, 0, -1310673, 5, 0, -1310672, 5, 0, -1310671, 5, 0, -1310670, 5, 0, -1310634, 5, 0, -1310633, 5, 0, -1310632, 5, 0, -1310631, 5, 0, -1310630, 5, 0, -1310629, 5, 0, -1310628, 5, 0, -1310627, 5, 0, -1245152, 5, 0, -1245151, 5, 0, -1245150, 5, 0, -1245149, 5, 0, -1245148, 5, 0, -1245147, 5, 0, -1245146, 5, 0, -1245145, 5, 0, -1245144, 5, 0, -1245116, 5, 0, -1245115, 5, 0, -982970, 5, 0, -982969, 5, 0, -982968, 5, 0, -982967, 5, 0, -982966, 5, 0, -982965, 5, 0, -982964, 5, 0, -982951, 5, 0, -982950, 5, 0, -982949, 5, 0, -982948, 5, 0, -982947, 5, 0, -982946, 5, 0, -982945, 5, 0, -851928, 5, 0, -851927, 5, 0, -851926, 5, 0, -851925, 5, 0, -720833, 5, 0, -720832, 5, 0, -720831, 5, 0, -720830, 5, 0, -720829, 5, 0, -720828, 5, 0, -655316, 5, 0, -655315, 5, 0, -655314, 5, 0, -655313, 5, 0, -655312, 5, 0, -589764, 5, 0, -589724, 5, 0, -589723, 5, 0, -589722, 5, 0, -589721, 5, 0, -589720, 5, 0, -589719, 5, 0, -327627, 5, 0, -327626, 5, 0, -327625, 5, 0, -327624, 5, 0, -327623, 5, 0, -196516, 5, 0, -196515, 5, 0, -196514, 5, 0, -196513, 5, 0, -131010, 5, 0, -131009, 5, 0, -131008, 5, 0, -131007, 5, 0, -131006, 5, 0, -131005, 5, 0, -65487, 5, 0, -65486, 5, 0, -65485, 5, 0, -65484, 5, 0, 196649, 5, 0, 196650, 5, 0, 196651, 5, 0, 196652, 5, 0, 196653, 5, 0, 196654, 5, 0, 196655, 5, 0, 327784, 5, 0, 327785, 5, 0, 327786, 5, 0, 327787, 5, 0, 327788, 5, 0, 327789, 5, 0, 327790, 5, 0, 327791, 5, 0, 589824, 9, 0, 589825, 9, 0, 589826, 9, 0, 589827, 9, 0, 589828, 9, 0, 589829, 9, 0, 589830, 9, 0, 589831, 9, 0, 589832, 9, 0, 589833, 9, 0, 589834, 9, 0, 589835, 9, 0, 589836, 9, 0, 589837, 9, 0, 589838, 9, 0, 589839, 9, 0, 589840, 9, 0, 589841, 9, 0, 589842, 9, 0, 589843, 9, 0, 589844, 9, 0, 589845, 9, 0, 589846, 9, 0, 589847, 9, 0, 589848, 9, 0, 589849, 9, 0, 589850, 9, 0, 589851, 9, 0, 589852, 9, 0, 589853, 9, 0, 589854, 9, 0, 589855, 9, 0, 589856, 9, 0, 589857, 9, 0, 589858, 9, 0, 589859, 9, 0, 589860, 9, 0, 589861, 9, 0, 589862, 9, 0, 589863, 9, 0, 589864, 9, 0, 655360, 5, 0, 655361, 5, 0, 655362, 5, 0, 655363, 5, 0, 655364, 5, 0, 655365, 5, 0, 655366, 5, 0, 655367, 5, 0, 655368, 5, 0, 655369, 5, 0, 655370, 5, 0, 655371, 5, 0, 655372, 5, 0, 655373, 5, 0, 655374, 5, 0, 655375, 5, 0, 655376, 5, 0, 655377, 5, 0, 655378, 5, 0, 655379, 5, 0, 655380, 5, 0, 655381, 5, 0, 655382, 5, 0, 655383, 5, 0, 655384, 5, 0, 655385, 5, 0, 655386, 5, 0, 655387, 5, 0, 655388, 5, 0, 655389, 5, 0, 655390, 5, 0, 655391, 5, 0, 655392, 5, 0, 655393, 5, 0, 655394, 5, 0, 655395, 5, 0, 655396, 5, 0, 655397, 5, 0, 655398, 5, 0, 655399, 5, 0, 655400, 5, 0, 655401, 5, 0, 655402, 5, 0, 655403, 5, 0, 655404, 5, 0, 655405, 5, 0, 655406, 5, 0, 655407, 5, 0, 655408, 5, 0, 655409, 5, 0, 655410, 5, 0, 655411, 5, 0, 655412, 5, 0, 655413, 5, 0, 655414, 5, 0, 655415, 5, 0, 655416, 5, 0, 655417, 5, 0, 655418, 5, 0, 655419, 5, 0, 655420, 5, 0, 655421, 5, 0, 655422, 5, 0, 655423, 5, 0, 655424, 5, 0, 655425, 5, 0, 655426, 5, 0, 655427, 5, 0, 655428, 5, 0, 655429, 5, 0, 655430, 5, 0, 655431, 5, 0, 655432, 5, 0, 655433, 5, 0, 655434, 5, 0, 655435, 5, 0, 655436, 5, 0, 655437, 5, 0, 655438, 5, 0, 655439, 5, 0, 655440, 5, 0, 655441, 5, 0, 655442, 5, 0, 655443, 5, 0, 655444, 5, 0, 655445, 5, 0, 655446, 5, 0, 655447, 5, 0, 655448, 5, 0, 655449, 5, 0, 655450, 5, 0, 655451, 5, 0, 655452, 5, 0, 655453, 5, 0, 655454, 5, 0, 655455, 5, 0, 655456, 5, 0, 655457, 5, 0, 655458, 5, 0, 655459, 5, 0, 655460, 5, 0, 655461, 5, 0, 655462, 5, 0, 655463, 5, 0, 655464, 5, 0, 655465, 5, 0, 655466, 5, 0, 655467, 5, 0, 655468, 5, 0, 655469, 5, 0, 655470, 5, 0, 655471, 5, 0, 655472, 5, 0, 655473, 5, 0, 655474, 5, 0, 655475, 5, 0, 655476, 5, 0, 655477, 5, 0, 655478, 5, 0, 655479, 5, 0, 655480, 5, 0, 655481, 5, 0, 655482, 5, 0, 655483, 5, 0, 655484, 5, 0, 655485, 5, 0, 655486, 5, 0, 655487, 5, 0, 655488, 5, 0, 655489, 5, 0, 655490, 5, 0, 655491, 5, 0, 655492, 5, 0, 655493, 5, 0, 655494, 5, 0, 655495, 5, 0, 655496, 5, 0, 655497, 5, 0, 655498, 5, 0, 655499, 5, 0, 655500, 5, 0, 655501, 5, 0, 655502, 5, 0, 655503, 5, 0, 655504, 5, 0, 655505, 5, 0, 655506, 5, 0, 655507, 5, 0, 655508, 5, 0, 655509, 5, 0, 655510, 5, 0, 655511, 5, 0, 720896, 12, 0, 720897, 12, 0, 720898, 12, 0, 720899, 12, 0, 720900, 12, 0, 720901, 12, 0, 720902, 12, 0, 720903, 12, 0, 720904, 12, 0, 720905, 12, 0, 720906, 12, 0, 720907, 12, 0, 720908, 12, 0, 720909, 12, 0, 720910, 12, 0, 720911, 12, 0, 720912, 12, 0, 720913, 12, 0, 720914, 12, 0, 720915, 12, 0, 720916, 12, 0, 720917, 12, 0, 720918, 12, 0, 720919, 12, 0, 720920, 12, 0, 720921, 12, 0, 720922, 12, 0, 720923, 12, 0, 720924, 12, 0, 720925, 12, 0, 720926, 12, 0, 720927, 12, 0, 720928, 12, 0, 720929, 12, 0, 720930, 12, 0, 720931, 12, 0, 720932, 12, 0, 720933, 12, 0, 720934, 12, 0, 720935, 12, 0, 720936, 12, 0, 786432, 1, 0, 786433, 1, 0, 786434, 1, 0, 786435, 1, 0, 786436, 1, 0, 786437, 1, 0, 786438, 1, 0, 786439, 1, 0, 786440, 1, 0, 786441, 1, 0, 786442, 1, 0, 786443, 1, 0, 786444, 1, 0, 786445, 1, 0, 786446, 1, 0, 786447, 1, 0, 786448, 1, 0, 786449, 1, 0, 786450, 1, 0, 786451, 1, 0, 786452, 1, 0, 786453, 1, 0, 786454, 1, 0, 786455, 1, 0, 786456, 1, 0, 786457, 1, 0, 786458, 1, 0, 786459, 1, 0, 786460, 1, 0, 786461, 1, 0, 786462, 1, 0, 786463, 1, 0, 786464, 1, 0, 786465, 1, 0, 786466, 1, 0, 786467, 1, 0 )
+
+[node name="HUD" parent="." instance=ExtResource( 3 )]
+
+[node name="Rupee Items" type="Node2D" parent="."]
+
+[node name="Rupee" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 1175, 459 )
+
+[node name="Rupee2" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 2230, 114 )
+
+[node name="Rupee3" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 2194, -494 )
+
+[node name="Rupee4" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 3241, -775 )
+
+[node name="Rupee5" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 3583, -1146 )
+
+[node name="Rupee6" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 4425, -976 )
+
+[node name="Rupee7" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 3460, 369 )
+
+[node name="Rupee8" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 4927, 295 )
+
+[node name="Rupee9" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 5358, 204 )
+
+[node name="Rupee10" parent="Rupee Items" instance=ExtResource( 6 )]
+position = Vector2( 4938, -459 )
+
+[node name="Ruby Items" type="Node2D" parent="."]
+
+[node name="Ruby" parent="Ruby Items" instance=ExtResource( 7 )]
+position = Vector2( 1381, 477 )
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 472, 116 )

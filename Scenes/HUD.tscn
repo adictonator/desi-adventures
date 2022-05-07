@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/hud/heart-full.png" type="Texture" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.2, 0.196078, 0.196078, 0.305882 )
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 225.0
+margin_bottom = 70.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="Control" type="Control" parent="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="HealthIcon" type="TextureRect" parent="Panel/Control"]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 21.0
+margin_bottom = 21.0
+texture = ExtResource( 1 )
+expand = true
