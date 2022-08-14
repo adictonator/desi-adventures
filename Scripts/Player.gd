@@ -15,7 +15,7 @@ func _physics_process(delta: float) -> void:
 		$AnimatedSprite.flip_h = false
 	else:
 		pass
-		#$AnimatedSprite.play('idle')
+
 
 	velocity.y += gravity
 
